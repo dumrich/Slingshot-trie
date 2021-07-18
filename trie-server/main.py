@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from trie import Trie
+from .trie import Trie
 
 trie = Trie()
 
