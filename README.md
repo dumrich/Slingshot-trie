@@ -1,6 +1,8 @@
 # Slingshot Trie challenge documentation
 Slingshot default takehome challenge.
 
+This is the client README. For the server documentation, go to README_SERVER.md
+
 ## What it is
 My submision for the take home challenge includes a:
 
