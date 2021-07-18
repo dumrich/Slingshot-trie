@@ -6,7 +6,6 @@ trie = Trie()
 app = FastAPI()
 
 
-
 @app.get("/api")
 def display():
     return trie
