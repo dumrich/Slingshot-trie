@@ -6,7 +6,7 @@ My submision for the take home challenge includes a:
 
 - REST server (written in Python)
 
-- A REST client (written in Rust)
+- A REST client (written in Python, with a Rust implementation)
 
 - Documentation (written in Markdown)
 
@@ -15,38 +15,43 @@ To use this, you only have to download the CLI. The REST API is hosted on a web 
 
 1. Clone this repository and cd into the `trie-client` directory.
 
-2. Make sure you have rustup installed. If not, you can install here [rustup](https://rustup.rs/)
+2. Make sure you have python installed
 
-3. You can access the binary by running `cargo build --release`. The binary is in the `target/release` folder, and is called `trie-client`.
+3. Run `python client.py --keyword {keyword}`
 
-4. If you are on windows, you need to do `.\trie-client.exe` instead of `./trie-client`.
+
 
 ## Usage
-To use this, you have to use the `cargo` tool installed with Rustup. This is a wrapper around the Rust compiler that makes it easy to run executables.
+To use this, you have to use the `python` interpreter installed.
 
 ### Add a keyword
 ```Rust
-$ ./trie-client {keyword}
+$ python client.py --keyword {keyword}
+Enter a function you would like to perform: add
 ```
 
 ### Delete a keyword
 ```Rust
-$ ./trie-client {keyword}
+$ python client.py --keyword {keyword}
+Enter a function you would like to perform: delete
 ```
 
 ### Search for a keyword
 ```Rust
-$ ./trie-client {keyword}
+$ python client.py --keyword {keyword}
+Enter a function you would like to perform: search
 ```
 
 ### Return autocomplete
 ```Rust
-$ ./trie-client {keyword}
+$ python client.py --keyword {keyword}
+Enter a function you would like to perform: suggest
 ```
 
 ### Display trie
 ```Rust
-$ ./trie-client --display
+$ python client.py --keyword {keyword}
+Enter a function you would like to perform: display
 ```
 
 

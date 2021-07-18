@@ -35,5 +35,5 @@ It accepts a get request with the name of a keyword.
 Accepts get request with name of keyword
 
 ### Display
-`https://slingshot-trie.herokuapp.com/api/suggest`
+`https://slingshot-trie.herokuapp.com/api/display`
 Accepts get request.
