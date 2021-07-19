@@ -17,7 +17,7 @@ To use this, you only have to download the CLI. The REST API is hosted on a web 
 
 1. Clone this repository and cd into the `trie-client` directory.
 
-2. Make sure you have python installed
+2. Make sure you have python3 installed.
 
 3. Run `python client.py --keyword {keyword}`
 
